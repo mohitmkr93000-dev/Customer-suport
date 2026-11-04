@@ -1,3 +1,14 @@
 plugins {
-    id 'com.android.application' version '8.5.2' apply false
+    id 'com.android.application'
+}
+android {
+    namespace 'com.example.customersupport'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.example.customersupport'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
 }
